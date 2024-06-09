@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up</title>
+    <link rel="stylesheet" href="../Public/public-sign-up.css">
+</head>
+<body>
+    <div class="main">
+        <div class="sign-up-box">
+            <h2>Sign Up</h2>
+            <input type="text" placeholder="Name" data-name>
+            <input type="email" placeholder="Email" data-email>
+            <input type="number" placeholder="Age" data-age>
+            <input type="text" name="" id="" placeholder="Muncipality/Panchayat" data-area>
+            <input type="text" placeholder="Officer id" data-officer-id>
+            <input type="text" placeholder="Phone number" data-phone-number>
+            <input type="text" placeholder="Aadhar Number" data-aadhar-number>
+            <input type="password" autocomplete="new-password" placeholder="Password" data-password>
+            <input type="password" autocomplete="new-password" placeholder="Confrim password">
+            <button data-signup-btn>Sign up</button>
+        </div>
+    </div>
+
+    <script src="https://www.gstatic.com/firebasejs/7.14.5/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.14.5/firebase-auth.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.14.5/firebase-database.js"></script>
+    <script src="../../Packages/firebase/firebase.js"></script>
+    <script src="./officer-signup.js"></script>
+</body>
+</html>
